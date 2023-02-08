@@ -16,8 +16,8 @@
 
 package spatialspark.main
 
-import com.vividsolutions.jts.io.{WKBReader, WKTReader}
-import com.vividsolutions.jts.geom.Geometry
+import org.locationtech.jts.io.{WKBReader, WKTReader}
+import org.locationtech.jts.geom.Geometry
 import spatialspark.operator.SpatialOperator
 import spatialspark.partition.bsp.BinarySplitPartitionConf
 import spatialspark.partition.fgp.FixedGridPartitionConf
